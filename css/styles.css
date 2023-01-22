@@ -1,226 +1,279 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
-  color: #8f8f8f;
-  margin-bottom: 0;
+    color: #8f8f8f;
+    margin-bottom: 0;
 }
 
 /* table CV */
 tr {
-text-align: left;
+    text-align: left;
 }
 
 /* Headings */
 .big-heading {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 4.5rem;
-  line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    line-height: 1.5;
 }
 
 .small-heading {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
 
 .section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* Containers */
 .container-fluid {
-  padding: 7% 15%;
+    padding: 7% 15%;
 }
 
 /* Sections */
 .colored-section {
-  background-color: #070d59;
-  color: #fff;
+    background-color: #070d59;
+    color: #fff;
 }
 
 .white-section {
-  padding-top:200px;
-  background-color: #fff;
+    padding-top: 200px;
+    background-color: #fff;
 }
 
 /* Navigation Bar */
 .navbar {
-  padding: 0 0 4.5rem;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-  font-family: "Major Mono Display", monospace;
-  font-size: 1.5rem;
-  font-weight: bold;
+    font-family: "Major Mono Display", monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .nav-item {
-  padding: 0 18px;
+    padding: 0 18px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Buttons */
 .download-button {
-  margin: 5% 3% 5% 0;
+    margin: 5% 3% 5% 0;
 }
 
 .download-button-cv {
-  margin: 1% 0 0;
+    margin: 1% 0 0;
 }
 
 /* Title Section */
 #title {
-  background-color:  #355463;
-  color: #fff;
-  text-align: left;
+    background-color: #355463;
+    color: #fff;
+    text-align: left;
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
+    padding: 3% 15% 7%;
 }
 
 /* Title Image */
 .title-image {
-  width: 75%;
-  transform: rotate(10deg);
-  position: absolute;
-  right: 20%;
-  top: 35%;
+    width: 75%;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 20%;
+    top: 35%;
 }
 
 /* About Section */
 .about-title {
-  font-size: 1.5rem;
-  color: #355463;
+    font-size: 1.5rem;
+    color: #355463;
 }
 
 .about-box {
-  padding: 4.5%;
+    padding: 4.5%;
 }
 
 .icon {
-  color: rgba(53, 84, 99, 0.3);
-  margin-bottom: 1rem;
+    color: rgba(53, 84, 99, 0.3);
+    margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #355463;
+    color: #355463;
 }
 
 /* Skills Section */
 #skills {
-  background-color: #1f3c88;
+    background-color: #1f3c88;
 }
 
 .skills-text {
-  font-size: 3rem;
-  line-height: 1.5;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .skills-image {
-  width: 10%;
-  margin: 10%;
+    width: 10%;
+    margin: 10%;
 }
 
 #skills .container-fluid {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 /* Job */
 #job {
-  padding: 100px;
+    padding: 100px;
 }
 
 .job-text {
-  font-size: 3rem;
-  line-height: 1.5;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .job-column {
-  padding: 3% 2%;
+    padding: 3% 2%;
 }
 
 /* Footer Section */
 .social-icon {
-  margin: 20px 10px;
-  color: #355463;
+    margin: 20px 10px;
+    color: #355463;
 }
 
 .social-icon:hover {
-  color: rgba(53, 84, 99, 0.3);
+    color: rgba(53, 84, 99, 0.3);
 }
 
 @media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
+    #title {
+        text-align: center;
+    }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-    top: 35%;
-  }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        top: 35%;
+    }
+
+    /* About Section */
+    .about-title {
+        font-size: 4rem;
+        color: #355463;
+    }
+
+    .about-box {
+        padding: 4.5%;
+    }
+
+    .icon {
+        font-size: 9rem;
+        color: rgba(53, 84, 99, 0.3);
+        margin-bottom: 1rem;
+    }
+
+    .about-text {
+        font-size: 3rem;
+    }
+
+    .links-text {
+        font-size: 2rem;
+    }
+
+    /* Footer Section */
+    .links {
+        font-size: 3rem;
+        margin: 20px 10px;
+        color: #355463;
+    }
+
+    .small-heading {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .navbar-brand {
+        font-family: "Major Mono Display", monospace;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .navbar-toggler {
+        font-size: 3rem;
+        padding: 0 18px;
+    }
+
+    .nav-link {
+        font-size: 3rem;
+    }
 }
 
 .flaticon {
-  color: #ceddef;
+    color: #ceddef;
 }
 
 #footercv {
-  background-color: #ceddef;
+    background-color: #ceddef;
 }
 
 
 .form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
 }
 
 .form-signin .checkbox {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .form-signin .form-control {
-  position: relative;
-  box-sizing: border-box;
-  height: auto;
-  padding: 10px;
-  font-size: 16px;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .form-signin .form-control:focus {
-  z-index: 2;
+    z-index: 2;
 }
 
 .top {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .middle {
-  border-radius: 0;
-  margin-bottom: -1px;
+    border-radius: 0;
+    margin-bottom: -1px;
 }
 
 .bottom {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
