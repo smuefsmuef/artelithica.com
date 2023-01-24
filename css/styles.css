@@ -37,19 +37,24 @@ tr {
     line-height: 1.5;
 }
 
+.carousel-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
 /* Containers */
 .container-fluid {
-    padding: 7% 15%;
+    padding: 3% 15%;
 }
 
 /* Sections */
 .colored-section {
-    background-color: #070d59;
+    background-color: #355463;
     color: #fff;
 }
 
 .white-section {
-    padding-top: 200px;
+    padding-top: 10rem;
     background-color: #fff;
 }
 
@@ -99,7 +104,7 @@ tr {
     transform: rotate(10deg);
     position: absolute;
     right: 20%;
-    top: 35%;
+    top: 3%;
 }
 
 /* About Section */
@@ -121,9 +126,9 @@ tr {
     color: #355463;
 }
 
-/* Skills Section */
-#skills {
-    background-color: #1f3c88;
+/*Artefact Section*/
+#artefact {
+    background-color: #355463;
 }
 
 .skills-text {
@@ -132,8 +137,16 @@ tr {
 }
 
 .skills-image {
-    width: 10%;
-    margin: 10%;
+    width: 40%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skills-image-small{
+    width: 19%;
+}
+.skills-image-super-small {
+    width: 12%;
 }
 
 #skills .container-fluid {
@@ -156,7 +169,7 @@ tr {
 
 /* Footer Section */
 .social-icon {
-    margin: 20px 10px;
+    margin: 10px 10px;
     color: #355463;
 }
 
@@ -202,7 +215,7 @@ tr {
     /* Footer Section */
     .links {
         font-size: 3rem;
-        margin: 20px 10px;
+        margin: 10px 10px;
         color: #355463;
     }
 
@@ -227,6 +240,16 @@ tr {
     .nav-link {
         font-size: 3rem;
     }
+
+    .carousel-heading {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    h5{
+        font-size: 2.5rem;
+    }
+
 }
 
 .flaticon {
