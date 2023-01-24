@@ -126,8 +126,8 @@ tr {
     color: #355463;
 }
 
-/* Skills Section */
-#skills {
+/*Artefact Section*/
+#artefact {
     background-color: #355463;
 }
 
@@ -143,7 +143,10 @@ tr {
 }
 
 .skills-image-small{
-    width: 20%;
+    width: 19%;
+}
+.skills-image-super-small {
+    width: 12%;
 }
 
 #skills .container-fluid {
