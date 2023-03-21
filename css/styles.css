@@ -129,6 +129,12 @@ tr {
 /*Artefact Section*/
 #artefact {
     background-color: #355463;
+    height: 43rem
+}
+
+#skills-carousel {
+    display: block;
+    justify-content: center;
 }
 
 .skills-text {
@@ -142,7 +148,7 @@ tr {
     margin-bottom: 1rem;
 }
 
-.skills-image-small{
+.skills-image-small {
     width: 19%;
 }
 .skills-image-super-small {
@@ -246,8 +252,8 @@ tr {
         line-height: 1.5;
     }
 
-    h5{
-        font-size: 2.5rem;
+    h5 {
+        font-size: 2rem;
     }
 
 }
