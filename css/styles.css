@@ -129,12 +129,27 @@ tr {
 /*Artefact Section*/
 #artefact {
     background-color: #355463;
-    height: 43rem
 }
 
 #skills-carousel {
     display: block;
     justify-content: center;
+    height: 55rem;
+}
+
+.carousel-inner {
+    display: flex;;
+    justify-content: center;
+}
+
+
+.skills-icon {
+    margin: 10px 10px;
+    color: #ceddef;
+}
+
+.skills-icon:hover {
+    color: #fff;
 }
 
 .skills-text {
@@ -148,11 +163,22 @@ tr {
     margin-bottom: 1rem;
 }
 
+.skills-image-big {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .skills-image-small {
     width: 19%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
 .skills-image-super-small {
     width: 12%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #skills .container-fluid {
@@ -216,6 +242,11 @@ tr {
 
     .links-text {
         font-size: 2rem;
+        color: #355463;
+    }
+
+    .links-text:hover {
+        color: #fff;
     }
 
     /* Footer Section */
