@@ -127,62 +127,71 @@ tr {
 }
 
 /*Artefact Section*/
-#artefact {
-    background-color: #355463;
+
+.artefact-section {
+    padding: 20px;
+    background-color: #355463; /* Optional: background color of the section */
 }
 
-#skills-carousel {
-    display: block;
-    justify-content: center;
-    height: 55rem;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+    grid-gap: 20px; /* Space between grid items */
+    max-width: 1200px; /* Adjust based on your design */
+    margin: 0 auto; /* Center the grid */
 }
 
-.carousel-inner {
-    display: flex;;
-    justify-content: center;
+.grid-item {
+    background-color: #ffffff; /* Background color of each grid item */
+    border: 1px solid #ddd; /* Border for each grid item */
+    border-radius: 5px; /* Optional: rounds the corners of the grid items */
+    padding: 15px; /* Space inside each grid item */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-
-.skills-icon {
-    margin: 10px 10px;
-    color: #ceddef;
+.grid-item img {
+    width: 100%; /* Makes image fill the container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    border-radius: 5px; /* Optional: rounds the corners of the image */
+    margin-bottom: 15px; /* Space between the image and the title */
 }
 
-.skills-icon:hover {
-    color: #fff;
+.item-title {
+    margin: 10px 0; /* Space above and below the title */
+    font-size: 20px; /* Title font size */
 }
 
-.skills-text {
-    font-size: 3rem;
-    line-height: 1.5;
+.item-description {
+    font-size: 14px; /* Description font size */
 }
 
-.skills-image {
-    width: 40%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.item-tools{
+    font-size: 14px; /* Description font size */
+    color: #355463;
+    font-style: italic;
 }
 
-.skills-image-big {
-    width: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.tools-section {
+    padding: 5px; /* Padding inside the tools section */
+    margin-top: 10px; /* Space above the tools section */
+    border-radius: 5px; /* Optional: matches the grid item border radius */
+    width: 100%; /* Ensures the tools section stretches to the width of the grid item */
+    box-sizing: border-box; /* Ensures padding doesn't add to the total width */
+    text-align: center; /* Centers the text within the tools section */
 }
 
-.skills-image-small {
-    width: 19%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.grid-link {
+    color: inherit; /* Ensures text color is not changed by the link */
+    text-decoration: none; /* Removes underline from links */
+    display: block; /* Makes the entire grid item clickable */
 }
 
-.skills-image-super-small {
-    width: 12%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-#skills .container-fluid {
-    padding-bottom: 0;
+.grid-link:hover, .grid-link:focus {
+    text-decoration: none; /* Optional: Change or add styles for hover/focus states */
 }
 
 /* Job */
