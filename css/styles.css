@@ -127,42 +127,51 @@ tr {
 }
 
 /*Artefact Section*/
-
 .artefact-section {
-    padding: 20px;
-    background-color: #355463; /* Optional: background color of the section */
+    padding: 20px 10% 10px 10%;
+    background-color: #355463;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
-    grid-gap: 20px; /* Space between grid items */
-    max-width: 1200px; /* Adjust based on your design */
-    margin: 0 auto; /* Center the grid */
-}
 
 .grid-item {
-    background-color: #ffffff; /* Background color of each grid item */
-    border: 1px solid #ddd; /* Border for each grid item */
-    border-radius: 5px; /* Optional: rounds the corners of the grid items */
-    padding: 15px; /* Space inside each grid item */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    background-color: #ffffff;
+    width: 100%; /* Adjusts the width to fit the container */
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Spacing between rows */
+    padding: 5px;
+    text-align: center; /* Center text */
 }
 
 .grid-item img {
-    width: 100%; /* Makes image fill the container */
-    height: auto; /* Keeps the aspect ratio of the image */
-    border-radius: 5px; /* Optional: rounds the corners of the image */
-    margin-bottom: 15px; /* Space between the image and the title */
+    width: 100%; /* Adjusts the width to fit the container */
+    height: 150px; /* Sets a fixed height for all images */
+    object-fit: scale-down; /* Ensures the image covers the area, cropping if necessary */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.item-title, .item-description {
+    margin: 5px 0;
+}
+
+.tools-section {
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center; /* Center text */
+}
+
+.grid-link, .grid-link:hover, .grid-link:focus {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* No underline */
+    display: block; /* Make the whole area clickable */
 }
 
 .item-title {
     margin: 10px 0; /* Space above and below the title */
     font-size: 20px; /* Title font size */
+    color: #355463;
 }
 
 .item-description {
