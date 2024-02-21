@@ -127,62 +127,80 @@ tr {
 }
 
 /*Artefact Section*/
-#artefact {
+.artefact-section {
+    padding: 20px 10% 10px 10%;
     background-color: #355463;
 }
 
-#skills-carousel {
-    display: block;
-    justify-content: center;
-    height: 55rem;
+
+.grid-item {
+    background-color: #ffffff;
+    width: 100%; /* Adjusts the width to fit the container */
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Spacing between rows */
+    padding: 5px;
+    text-align: center; /* Center text */
 }
 
-.carousel-inner {
-    display: flex;;
-    justify-content: center;
+.grid-item img {
+    width: 100%; /* Adjusts the width to fit the container */
+    height: 150px; /* Sets a fixed height for all images */
+    object-fit: scale-down; /* Ensures the image covers the area, cropping if necessary */
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-
-.skills-icon {
-    margin: 10px 10px;
-    color: #ceddef;
+.item-title, .item-description {
+    margin: 5px 0;
 }
 
-.skills-icon:hover {
-    color: #fff;
+.tools-section {
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center; /* Center text */
 }
 
-.skills-text {
-    font-size: 3rem;
-    line-height: 1.5;
+.grid-link, .grid-link:hover, .grid-link:focus {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* No underline */
+    display: block; /* Make the whole area clickable */
 }
 
-.skills-image {
-    width: 40%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.item-title {
+    margin: 10px 0; /* Space above and below the title */
+    font-size: 20px; /* Title font size */
+    color: #355463;
 }
 
-.skills-image-big {
-    width: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.item-description {
+    font-size: 14px; /* Description font size */
 }
 
-.skills-image-small {
-    width: 19%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.item-tools{
+    font-size: 14px; /* Description font size */
+    color: #355463;
+    font-style: italic;
 }
 
-.skills-image-super-small {
-    width: 12%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.tools-section {
+    padding: 5px; /* Padding inside the tools section */
+    margin-top: 10px; /* Space above the tools section */
+    border-radius: 5px; /* Optional: matches the grid item border radius */
+    width: 100%; /* Ensures the tools section stretches to the width of the grid item */
+    box-sizing: border-box; /* Ensures padding doesn't add to the total width */
+    text-align: center; /* Centers the text within the tools section */
 }
 
-#skills .container-fluid {
-    padding-bottom: 0;
+.grid-link {
+    color: inherit; /* Ensures text color is not changed by the link */
+    text-decoration: none; /* Removes underline from links */
+    display: block; /* Makes the entire grid item clickable */
+}
+
+.grid-link:hover, .grid-link:focus {
+    text-decoration: none; /* Optional: Change or add styles for hover/focus states */
 }
 
 /* Job */
@@ -290,7 +308,7 @@ tr {
 }
 
 .flaticon {
-    color: #ceddef;
+    color: rgba(206, 221, 239, 0.19);
 }
 
 #footercv {
