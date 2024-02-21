@@ -23,6 +23,7 @@ tr {
     font-weight: bold;
     font-size: 4.5rem;
     line-height: 1.5;
+
 }
 
 .small-heading {
@@ -30,6 +31,10 @@ tr {
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 1.5;
+}
+
+.hireme-big-heading{
+    color: #355463;
 }
 
 .section-heading {
@@ -254,9 +259,11 @@ tr {
     }
 
     .title-image {
-        position: static;
-        transform: rotate(0);
-        top: 35%;
+        width: 30%;
+        transform: rotate(10deg);
+        position: absolute;
+        right: 20%;
+        top: 3%;
     }
 
     /* About Section */
@@ -326,10 +333,21 @@ tr {
         font-size: 2rem;
     }
 
+    .hireme-big-heading{
+        font-size: 2rem;
+
+    }
+
+    .social-icon {
+        margin: 10px 10px;
+        color: #355463;
+        font-size: 2rem;
+    }
+
 }
 
 .flaticon {
-    color: rgba(206, 221, 239, 0.19);
+    color: rgba(159, 190, 220, 0.11);
 }
 
 #footercv {
