@@ -170,16 +170,17 @@ tr {
 
 .item-title {
     margin: 10px 0; /* Space above and below the title */
-    font-size: 20px; /* Title font size */
+    font-size: 1rem;  /* Title font size */
     color: #355463;
+    font-weight: bold;
 }
 
 .item-description {
-    font-size: 14px; /* Description font size */
+    font-size: 0.8rem; /* Description font size */
 }
 
 .item-tools{
-    font-size: 14px; /* Description font size */
+    font-size: 0.8rem; /* Description font size */
     color: #355463;
     font-style: italic;
 }
@@ -202,6 +203,26 @@ tr {
 .grid-link:hover, .grid-link:focus {
     text-decoration: none; /* Optional: Change or add styles for hover/focus states */
 }
+
+
+@media (max-width: 1028px) {
+    .item-title {
+        margin: 10px 0; /* Space above and below the title */
+        font-size: 1.8rem; /* Title font size */
+        color: #355463;
+    }
+
+    .item-description {
+        font-size: 1.5rem; /* Description font size */
+    }
+
+    .item-tools{
+        font-size: 1.5rem; /* Description font size */
+        color: #355463;
+        font-style: italic;
+    }
+}
+
 
 /* Job */
 #job {
@@ -240,7 +261,7 @@ tr {
 
     /* About Section */
     .about-title {
-        font-size: 4rem;
+        font-size: 2rem;
         color: #355463;
     }
 
@@ -255,11 +276,11 @@ tr {
     }
 
     .about-text {
-        font-size: 3rem;
+        font-size: 1.8rem;
     }
 
     .links-text {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #355463;
     }
 
